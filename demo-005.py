@@ -1,3 +1,8 @@
+"""
+JWT请求
+需要在headers里面构建一个字段Authorization
+内容是 JWT + 空格 + jwt内容
+"""
 import requests
 
 headers = {
