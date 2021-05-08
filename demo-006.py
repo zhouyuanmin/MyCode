@@ -7,6 +7,8 @@ git做对象资源服务器
 链接前缀为 https://gitee.com/zhouyuanmin/images/raw/master/
 后面接路径即可
 如: https://gitee.com/zhouyuanmin/images/raw/master/imgs/20210508101552.png
+
+上传文件需要使用ssh，并且配置好git相关的ssh
 """
 local_repo_path = '/Users/myard/Desktop/images'
 git_cmd = f'git -C {local_repo_path}'
