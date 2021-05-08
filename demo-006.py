@@ -10,7 +10,7 @@ git做对象资源服务器
 
 上传文件需要使用ssh，并且配置好git相关的ssh
 """
-local_repo_path = '/Users/myard/Desktop/images'
+local_repo_path = '/Users/yard/Desktop/images'
 git_cmd = f'git -C {local_repo_path}'
 total_git_cmd = f'{git_cmd} pull && {git_cmd} add . && {git_cmd} commit -m "sync" && {git_cmd} push origin master'
 print(total_git_cmd)
